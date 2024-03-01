@@ -1,0 +1,54 @@
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* This is the additional rule added for paragraphs */
+p {
+    color: #990000;
+}
+
+
+h2 {
+    color: #0066cc;
+    font-size: 24px;
+}
+
+/* This is the additional rule for level two headers */
+h2 {
+    font-weight: bold;
+}
+
+
+table {
+    border: 1px solid #808080;
+    border-collapse: collapse;
+}
+
+/* This is the additional rule for tables */
+table th, table td {
+    padding: 10px;
+}
+
+
+#additional-content {
+    font-style: italic;
+    color: #9999ff;
+}
+
+/* Using class attribute for CSS rule block */
+.favorite {
+    font-weight: bold;
+}
+
+/* Applying the rule block to the HTML */
+.favorite-sites li {
+    color: #99ccff;
+}
+
+
+.logo {
+    width: 267px;
+    height: 72px;
+}
